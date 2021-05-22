@@ -18,10 +18,10 @@ function NavBar() {
   return (
     <div>
       <nav className={nav ? "nav active" : "nav"}>
-        <Link to={"main"} className="logo">
+        <Link to="main" className="logo">
           <img src={logo} alt="" />
         </Link>
-        <input className="menu-btn" id={"menu-btn"} />
+        <input className="menu-btn" type="checkbox" id={"menu-btn"} />
         <label className="menu-icon" for="menu-btn">
           <span className="nav-icon"></span>
         </label>
