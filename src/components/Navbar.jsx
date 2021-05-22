@@ -27,7 +27,7 @@ function NavBar() {
         </label>
         <ul className="menu">
           <li>
-            <Link to="#">Heder</Link>
+            <Link to="#">Header</Link>
           </li>
           <li>
             <Link to="#">Products</Link>
